@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@300&display=swap');
+
+*{
+    font-family: 'Comme', sans-serif;
+}
+
+
+body::-webkit-scrollbar{
+    display:none;
+}
+
+
+
+
+.nav-link{
+    font-size: 25px !important;
+    margin-left:15px !important;
+}
+
+.nav-link:hover{
+    scale:1.12;
+    color: rgb(7, 3, 37) !important;
+}
+
+.navbar-brand{
+    font-family: cursive;
+    color: blue;
+    font-weight: 900;
+}
+
+.extra,h1{
+    color: green;
+    font-family: cursive;
+    font-weight: 900;
+}
+
+#banner img{
+    height:100%;
+    width:100%;
+}
+
+.product_card{
+    margin:12px !important;
+}
+/* Add to Button Sticky  */
+.card-body{
+position: relative !important;
+}
+
+
+
+#count{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue !important;
+    font-weight: bolder !important;
+    font-size: 15px !important;
+}
+
+
+#banner{
+    background-image: url(../images/img.jpg);
+    width:99vw;
+    height:65vh;
+    margin:auto !important;
+    
+}
+
+.btn-primary{
+    position: absolute !important;
+    /* margin-top: 2px !important; */
+    bottom:3px !important;
+    right: 2px !important;
+}
+
+.btn-primary:hover{
+    scale: 1.1;
+    color: blue;
+    background-color: white;
+}
+
+#products{
+  width:98vw !important;
+  margin:auto !important;
+  display: flex !important;
+  justify-content: center;
+  background-color: #fff !important;
+  
+}
+
+.card-title{
+ color: rgb(27, 3, 49) !important;
+}
+
+.card:hover{
+scale:0.8;
+color: rgb(6, 1, 10) !important;
+}
+
+.card-img-top:hover{
+    transform: scale(1.05, 1.02); /* Equal to scaleX(2) scaleY(0.5) */
+  
+} 

@@ -1,4 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #7d8a85;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+
+}
+
+body {
+    width: 100%;
+}
 
 .nav-link{
     font-size: 25px !important;
@@ -29,3 +79,330 @@
     font-size: 15px !important;
 }
 
+/* contact page(contact.html)------------------ */
+
+
+#page-header {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p {
+    color: #F2F3F4;
+}
+
+#page-header h2 {
+    font-size: 72px;
+    font-weight: 700;
+    /* color: #212F3D; */
+}
+
+#page-header p {
+    font-size: 25px;
+}
+
+#page-header.contact-header {
+    background-image: url("../images/contact/contact1.jpeg");
+
+    height: 60vh;
+}
+
+/* google map section(contact.html) */
+
+
+#contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#contact-details .details {
+    width: 50%;
+    /* padding-top: 20px; */
+}
+
+#contact-details .details span,
+#form-details form span {
+    font-size: 22px;
+
+}
+
+#contact-details .details h2,
+#form-details form h2 {
+    font-size: 37px;
+    line-height: 35px;
+    padding: 25px 0;
+    color: #212F3D;
+    font-weight: 700;
+}
+
+#contact-details .details h3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #373739;
+}
+
+#contact-details .details li {
+    list-style: none;
+    display: flex;
+    padding: 15px 0;
+}
+
+#contact-details .details li i {
+    font-size: 18px;
+    padding-right: 22px;
+}
+
+#contact-details .details li p {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+#contact-details .map {
+    width: 53%;
+    height: 550px;
+    padding-top: 30px;
+}
+
+#contact-details .map iframe {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* form section(contact.html) */
+
+
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+
+#form-details h2 {
+    font-weight: 700;
+}
+
+
+#form-details form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form input,
+#form-details form textarea {
+    width: 100%;
+    padding: 6px 15px;
+    outline: none;
+    margin-bottom: 22px;
+    border: 1px solid #d6d5d5;
+    font-size: 18px;
+}
+
+#form-details form textarea {
+    height: 200px;
+}
+
+#form-details form button {
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px 28px;
+    color: #F8F9F9;
+    background-color: #088178;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#form-details .people img {
+    height: 100px;
+    width: 90px;
+    object-fit: cover;
+    margin-right: 15px;
+    padding-right: 10px;
+
+}
+
+
+
+#form-details .people div {
+    padding-bottom: 38px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#form-details .people div p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#form-details .people div p span {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #373739;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("../images/pay/banner.png");
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* background-color: #0d2e83; */
+
+}
+
+#newsletter h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fbffff;
+}
+
+#newsletter p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #CACFD2;
+}
+
+#newsletter p span {
+
+    color: #f1dd2e;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    color: #9ea7af;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 25px;
+    color: #F8F9F9;
+    background-color: #148F77;
+    cursor: pointer;
+    border: 1px solid #148F77;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.2s;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.craft strong {
+    font-size: 40px;
+}
+
+.craft {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #212F3D;
+}
+
+footer h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #212F3D;
+}
+
+footer p {
+    font-size: 23px;
+    margin: 0 0 8px 0;
+    color: #5b5d61;
+}
+
+footer a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #85929E;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow h4 {
+    color: #212F3D;
+}
+
+footer .follow i {
+    color: #212F3D;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    width: 180px;
+    height: 50px;
+    border: 2px solid #088178;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 15px;
+
+
+}
+
+footer .install img {
+    margin: 12px 0 17px 0;
+
+}
+
+footer .follow i:hover,
+footer a:hover {
+
+    color: #138D75;
+}

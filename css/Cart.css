@@ -1,4 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+
+.text-danger:hover {
+    cursor: pointer !important;
+}
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #7d8a85;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+
+}
+
+body {
+    width: 100%;
+}
 
 .nav-link{
     font-size: 25px !important;
@@ -33,4 +87,229 @@
 
 .text-danger:hover{
     cursor: pointer !important;
+}
+
+#page-header {
+    background-image: url("images/shop1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p {
+    color: #F2F3F4;
+}
+
+#page-header h2 {
+    font-size: 72px;
+    font-weight: 700;
+    /* color: #212F3D; */
+}
+
+#page-header p {
+    font-size: 25px;
+}
+
+
+#page-header.cart-header {
+    background-image: url("../picture/cart.avif");
+    height: 60vh;
+}
+
+#page-header.cart-header h2 {
+    color: #19222c;
+}
+
+#page-header.cart-header p {
+    font-size: 32px;
+    font-weight: 600;
+    color: #19222c;
+}
+
+
+.checkout {
+    display: block;
+    width: 33%;
+    margin:  auto;
+    padding: 40px 0;
+}
+
+.checkout a button {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 8px 18px;
+    color: #F8F9F9;
+    background-color: #212F3C;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #212F3C;
+    outline: none;
+    transition: 0.2s;
+    margin-right: 5px;
+}
+
+.checkout a button:hover {
+    cursor: pointer;
+    color: #212F3C ;
+    background-color: transparent
+    
+}
+
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("../images/pay/banner.png");
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+#newsletter h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fbffff;
+}
+
+#newsletter p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #CACFD2;
+}
+
+#newsletter p span {
+
+    color: #f1dd2e;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    color: #9ea7af;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 25px;
+    color: #F8F9F9;
+    background-color: #148F77;
+    cursor: pointer;
+    border: 1px solid #148F77;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.2s;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+
+
+.craft strong {
+    font-size: 40px;
+}
+
+.craft {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #212F3D;
+}
+
+footer h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #212F3D;
+}
+
+footer p {
+    font-size: 23px;
+    margin: 0 0 8px 0;
+    color: #5b5d61;
+}
+
+footer a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #85929E;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow h4 {
+    color: #212F3D;
+}
+
+footer .follow i {
+    color: #212F3D;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+
+
+footer .install .row img {
+    width: 180px;
+    height: 50px;
+    border: 2px solid #088178;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 15px;
+
+
+}
+
+footer .install img {
+    margin: 12px 0 17px 0;
+
+}
+
+footer .follow i:hover,
+footer a:hover {
+
+    color: #138D75;
 }

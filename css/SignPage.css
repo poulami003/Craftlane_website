@@ -1,4 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #7d8a85;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+
+}
+
+body {
+    width: 100%;
+}
 
 .nav-link{
     font-size: 25px !important;
@@ -30,11 +80,61 @@
 }
 
 
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #dfc6c6;; */
+    background-image: url(../picture/img6.avif);
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
 
-.sign{
-    background-color: rgb(227, 230, 230);
-    width:340px;
-    
-    margin:auto;
-    margin-top: 20px;
+.container {
+    border: 2px solid aliceblue;
+    margin: 100px 80px;
+    padding: 40px 75px;
+    width: 45%;
+    border-radius: 28px;
+    color: rgb(245, 249, 252);
+
+}
+
+.container h1 {
+    text-align: center;
+}
+
+
+.textbox input {
+    text-align: center;
+    display: block;
+    width: 490px;
+    padding: 6px;
+    border: 2px solid aliceblue;
+    margin: 11px auto;
+    border-radius: 8px;
+    font-size: 17px;
+
+}
+
+
+.submit input {
+    margin: 25px auto;
+    font-size: 18px;
+    padding: 9px 25px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    width: 504px;
+}
+
+.submit input:hover {
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+
+
 }

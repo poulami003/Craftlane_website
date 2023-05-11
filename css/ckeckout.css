@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #7d8a85;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+
+}
+
+body {
+    width: 100%;
+}
+
+.nav-link{
+    font-size: 25px !important;
+    margin-left:15px !important;
+}
+
+.nav-link:hover{
+    scale:1.12;
+    color: rgb(7, 3, 37) !important;
+}
+
+.navbar-brand{
+    font-family: cursive;
+    color: blue;
+    font-weight: 900;
+}
+
+.extra{
+    color: green;
+    font-family: cursive;
+    font-weight: 900;
+}
+
+/* #count{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue !important;
+    font-weight: bolder !important;
+    font-size: 15px !important;
+} */
+
+
+#page-header {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p {
+    color:#19222c;
+}
+
+#page-header h2 {
+    font-size: 72px;
+    font-weight: 700;
+    /* color: #212F3D; */
+}
+
+#page-header p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#page-header.about-header {
+    background-image: url("../picture/img8.avif");
+
+}
+
+/* .checkout-part {
+    background-color: #dfc6c6;
+    height: 700px;
+    
+} */
+
+
+
+
+.container {
+    display: block;
+    align-items: center;
+    border: 2px solid #929496;
+    margin: 100px auto;
+    padding: 40px 75px;
+    width: 45%;
+    border-radius: 28px;
+    color: rgb(245, 249, 252);
+  
+
+}
+
+.container h1 {
+    text-align: center;
+}
+
+
+.textbox input {
+    text-align: center;
+    display: block;
+    width: 490px;
+    padding: 6px;
+    border: 2px solid #929496;
+    margin: 11px auto;
+    border-radius: 8px;
+    font-size: 17px;
+
+}
+
+
+.submit input {
+    margin: 25px auto;
+    font-size: 18px;
+    padding: 9px 25px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    width: 504px;
+}
+
+.submit input:hover {
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+
+
+}
+
+.checkout {
+    display: block;
+    width: 30%;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+
+.checkout a button {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 8px 18px;
+    color: #F8F9F9;
+    background-color: #212F3C;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #212F3C;
+    outline: none;
+    transition: 0.2s;
+    margin-right: 5px;
+}
+
+.checkout a button:hover {
+    cursor: pointer;
+    color: #212F3C;
+    background-color: transparent
+}

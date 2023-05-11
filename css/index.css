@@ -1,9 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Comme:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*{
-    font-family: 'Comme', sans-serif;
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'League Spartan', sans-serif;
 }
 
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #7d8a85;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+
+}
 
 body::-webkit-scrollbar{
     display:none;
@@ -23,24 +64,25 @@ body::-webkit-scrollbar{
 }
 
 .navbar-brand{
-    font-family: cursive;
-    color: blue;
+    text-decoration: none;
+    font-family: 'League Spartan', sans-serif;
+    color:#212F3D;
     font-weight: 900;
 }
 
 .extra,h1{
     color: green;
-    font-family: cursive;
+    font-family: 'League Spartan', sans-serif;
     font-weight: 900;
 }
 
-#banner img{
-    height:100%;
-    width:100%;
-}
+
 
 .product_card{
-    margin:12px !important;
+    margin: 23px !important;
+    transition: 0.3s;
+    border: 2px solid rgb(217, 215, 215);
+    /* box-shadow: 15px rgb(178, 177, 177); */
 }
 /* Add to Button Sticky  */
 .card-body{
@@ -57,25 +99,27 @@ position: relative !important;
 }
 
 
-#banner{
-    background-image: url(../images/img.jpg);
-    width:99vw;
-    height:65vh;
-    margin:auto !important;
-    
-}
+
 
 .btn-primary{
     position: absolute !important;
     /* margin-top: 2px !important; */
     bottom:3px !important;
     right: 2px !important;
+    margin-bottom: 10px !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    background-color:#16A085 !important;
+    border: 1px solid #16A085 !important;
 }
 
 .btn-primary:hover{
-    scale: 1.1;
-    color: blue;
-    background-color: white;
+    /* scale: 1.1; */
+    color:#16A085 !important;
+    background-color:transparent !important;
+    border: 1px solid #16A085 !important;
+
 }
 
 #products{
@@ -92,11 +136,254 @@ position: relative !important;
 }
 
 .card:hover{
-scale:0.8;
+scale:0.9;
 color: rgb(6, 1, 10) !important;
 }
 
-.card-img-top:hover{
-    transform: scale(1.05, 1.02); /* Equal to scaleX(2) scaleY(0.5) */
+.card-img-top {
+    padding-top: 10px !important;
+    border-radius: 8px !important;
+   
+    
+}
+
+
+
+.card-text {
+    font-size: 22px !important;
+}
+
+/* .card-img-top:hover{
+    transform: scale(1.05, 1.02); Equal to scaleX(2) scaleY(0.5)
   
-} 
+}  */
+
+
+/* index page  */
+
+
+#hero {
+    background-image: url("../picture/img1.avif");
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 0 right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* margin-bottom: 30px; */
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+    color: #F8F9F9;
+
+}
+
+#hero h2 {
+    color: #F8F9F9;
+    
+}
+
+#hero h1 {
+    color: #16A085;
+    font-family: 'League Spartan',sans-serif;
+    font-weight: 500;
+}
+
+#hero a button {
+    text-decoration: none;
+    /* background-image: url("images/button.jpeg") ; */
+    background-color: #F9E79F;
+    /* background-size:100%; */
+    background-repeat: no-repeat;
+    /* background-color: transparent; */
+    color: #239B56;
+    border: 2px solid #F9E79F;
+    padding: 8px 16px 8px 10px;
+    font-size: 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+#hero a button:hover {
+    cursor: pointer;
+    color: #16A085;
+    background-color: transparent;
+    border: 2px solid #16A085;
+}
+
+
+
+#hero p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #212F3D;
+}
+
+.service {
+    text-align: center;
+    font-weight: 600;
+    color: #212F3D;
+    line-height: 15px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-family: 'League Spartan', sans-serif;
+    }
+
+
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("../images/pay/banner.png");
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+
+#newsletter h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fbffff;
+}
+
+#newsletter p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #CACFD2;
+}
+
+#newsletter p span {
+
+    color: #f1dd2e;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    color: #9ea7af;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 25px;
+    color: #F8F9F9;
+    background-color: #148F77;
+    cursor: pointer;
+    border: 1px solid #148F77;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.2s;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+
+
+.craft strong {
+    font-size: 40px;
+}
+.craft {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #212F3D;
+}
+
+footer h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #212F3D;
+}
+
+footer p {
+    font-size: 23px;
+    margin: 0 0 8px 0;
+    color: #5b5d61;
+}
+
+footer a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #85929E;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow h4 {
+    color: #212F3D;
+}
+
+footer .follow i {
+    color: #212F3D;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+
+
+footer .install .row img {
+    width: 180px;
+    height: 50px;
+    border: 2px solid #088178;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 15px;
+
+
+}
+
+footer .install img {
+    margin: 12px 0 17px 0;
+
+}
+
+footer .follow i:hover,
+footer a:hover {
+
+    color: #138D75;
+}

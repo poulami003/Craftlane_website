@@ -1,4 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #7d8a85;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+
+}
+
+body {
+    width: 100%;
+}
 
 .nav-link{
     font-size: 25px !important;
@@ -27,4 +77,329 @@
     color: blue !important;
     font-weight: bolder !important;
     font-size: 15px !important;
+}
+
+
+/* About page(about.html)----------------------- */
+
+#page-header {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p {
+    color: #F2F3F4;
+}
+
+#page-header h2 {
+    font-size: 72px;
+    font-weight: 700;
+    /* color: #212F3D; */
+}
+
+#page-header p {
+    font-size: 25px;
+}
+
+#page-header.about-header {
+    background-image: url("../images/about/b1.jpg");
+
+}
+
+
+/* about us section */
+
+#about-head img {
+
+    width: 450%;
+    height: 90vh;
+    padding-top: 60px;
+    padding-left: 20px;
+
+}
+
+#about-head {
+    display: flex;
+
+    align-items: center;
+}
+
+
+
+#about-head div {
+    padding-left: 60px;
+}
+
+#about-head .about {
+    margin: 50px 0;
+}
+
+#about-head .about h1 {
+    color: #212F3D;
+    font-size: 60px;
+}
+
+#about-head .about p {
+    font-size: 20px;
+    
+    line-height: none;
+
+}
+
+#about-head .about abbr {
+    font-size: 20px;
+}
+
+#about-head .about marquee {
+    font-size: 20px;
+}
+
+
+/* app section */
+
+#about-app {
+    text-align: center;
+}
+
+#about-app h1 {
+    color: #212F3D;
+    margin-bottom: 50px;
+}
+
+#about-app .video {
+    width: 70%;
+    height: 8%;
+    margin: 35px auto 0 auto;
+    background-color: #212F3D;
+}
+
+#about-app .video video {
+    width: 50%;
+    height: 1%;
+    border-radius: 30px;
+    margin: 85px;
+}
+
+.service {
+    text-align: center;
+    color: #212F3D;
+    line-height: 15px;
+    padding-top: 50px;
+}
+
+
+
+
+#feature {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+
+#feature .image {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box {
+
+    width: 230px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 10px 10px 15px #F2F3F4;
+    border: 1px solid #D0ECE7;
+    border-radius: 4px;
+    margin: 25px 0;
+
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 85px #EAEDED;
+}
+
+#feature .fe-box h3 {
+    padding: 9px 8px 6px 8px;
+    display: inline-block;
+    line-height: 1;
+    border-radius: 4px;
+    color: #138D75;
+    background-color: #FADBD8;
+}
+
+#feature .fe-box:nth-child(2) h3 {
+    background-color: #D0ECE7;
+}
+
+#feature .fe-box:nth-child(3) h3 {
+    background-color: #D6EAF8;
+}
+
+#feature .fe-box:nth-child(4) h3 {
+    background-color: #E8DAEF;
+}
+
+#feature .fe-box:nth-child(5) h3 {
+    background-color: #FAE5D3;
+}
+
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("../images/pay/banner.png");
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* background-color: #0d2e83; */
+
+}
+
+#newsletter h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fbffff;
+}
+
+#newsletter p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #CACFD2;
+}
+
+#newsletter p span {
+
+    color: #f1dd2e;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    color: #9ea7af;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 25px;
+    color: #F8F9F9;
+    background-color: #148F77;
+    cursor: pointer;
+    border: 1px solid #148F77;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.2s;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.craft strong {
+    font-size: 40px;
+}
+
+.craft {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #212F3D;
+}
+
+footer h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #212F3D;
+}
+
+footer p {
+    font-size: 23px;
+    margin: 0 0 8px 0;
+    color: #5b5d61;
+}
+
+footer a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #85929E;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow h4 {
+    color: #212F3D;
+}
+
+footer .follow i {
+    color: #212F3D;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    width: 180px;
+    height: 50px;
+    border: 2px solid #088178;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 15px;
+
+
+}
+
+footer .install img {
+    margin: 12px 0 17px 0;
+
+}
+
+footer .follow i:hover,
+footer a:hover {
+
+    color: #138D75;
 }

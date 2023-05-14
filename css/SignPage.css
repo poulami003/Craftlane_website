@@ -51,7 +51,7 @@ body {
 }
 
 .nav-link {
-    font-size: 25px !important;
+    font-size: 32px !important;
     margin-left: 15px !important;
     font-family: 'League Spartan',
         sans-serif !important;
@@ -67,7 +67,43 @@ body {
     font-family: 'League Spartan',
         sans-serif;
     color: #212F3D;
-    font-weight: 700;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.navbar-brand:hover,
+.navbar-brand a:active {
+    color: #16A085;
+}
+
+.navbar>.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    /* box-shadow: 5px 5px 15px #EAEDED; */
+    margin-bottom: 10px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar>.container-fluid {
+    padding: 4px 45px;
+
+}
+
+.craft strong {
+    font-size: 40px;
+}
+
+.craft {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #212F3D;
 }
 
 .extra {

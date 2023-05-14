@@ -54,29 +54,47 @@ body::-webkit-scrollbar {
 
 
 .nav-link {
-    font-size: 30px !important;
+    font-size: 32px !important;
     margin-left: 15px !important;
     font-family: 'League Spartan',
         sans-serif !important;
 }
 
 .nav-link:hover {
-    
-    color:#16A085 !important;
+
+    color: #16A085 !important;
 }
 
 .navbar-brand {
     text-decoration: none;
     font-family: 'League Spartan',
         sans-serif;
-    color:#212F3D;
-    font-weight: 700;
+    color: #212F3D;
+    font-weight: 500;
     padding-top: 20px;
+    transition: 0.3s ease;
+    position: relative;
 }
 
-.extra
- {
-    color:#212F3D;
+.navbar-brand:hover,
+.navbar-brand a:active {
+    color: #16A085;
+}
+
+/* .navbar-brand:hover::after,
+.navbar>.container-fluid a:active::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background:#16A085;
+    position: absolute;
+    bottom: -2px;
+    left: 2px;
+
+} */
+
+.extra {
+    color: #212F3D;
     font-family: 'League Spartan',
         sans-serif;
     font-weight: 700;
@@ -168,6 +186,62 @@ body::-webkit-scrollbar {
 
 
 /* index page  */
+
+.navbar {
+    box-shadow: 5px 5px 15px #EAEDED;
+    margin-bottom: 10px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar>.container-fluid {
+    padding: 4px 45px;
+
+}
+
+.navbar>.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .container {
+    
+    margin: 50px auto;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1.5fr 1.5fr 5fr 1fr;
+   
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 40px;
+    box-sizing: border-box;
+    position: fixed;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+
+} */
+
+/* .nav li a:hover,
+.nav li a.active {
+    color: #45B39D;
+}
+
+.nav li a.active::after,
+.nav li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #45B39D;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+} */
 
 
 #hero {

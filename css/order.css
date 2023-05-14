@@ -58,25 +58,29 @@ body {
 .nav-link {
     font-size: 25px !important;
     margin-left: 15px !important;
+    font-family: 'League Spartan',
+        sans-serif !important;
 }
 
 .nav-link:hover {
-    scale: 1.12;
-    color: rgb(7, 3, 37) !important;
+
+    color: #16A085 !important;
 }
 
 .navbar-brand {
-    font-family: cursive;
-    color: blue;
-    font-weight: 900;
+    text-decoration: none;
+    font-family: 'League Spartan',
+        sans-serif;
+    color: #212F3D;
+    font-weight: 700;
 }
 
 .extra {
-    color: green;
-    font-family: cursive;
-    font-weight: 900;
+    color: #212F3D;
+    font-family: 'League Spartan',
+        sans-serif;
+    font-weight: 700;
 }
-
 #count {
     font-family: 'Courier New', Courier, monospace;
     color: blue !important;

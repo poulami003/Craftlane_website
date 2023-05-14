@@ -46,105 +46,113 @@ p {
 
 }
 
-body::-webkit-scrollbar{
-    display:none;
+body::-webkit-scrollbar {
+    display: none;
 }
 
 
 
 
-.nav-link{
-    font-size: 25px !important;
-    margin-left:15px !important;
+.nav-link {
+    font-size: 30px !important;
+    margin-left: 15px !important;
+    font-family: 'League Spartan',
+        sans-serif !important;
 }
 
-.nav-link:hover{
-    scale:1.12;
-    color: rgb(7, 3, 37) !important;
+.nav-link:hover {
+    
+    color:#16A085 !important;
 }
 
-.navbar-brand{
+.navbar-brand {
     text-decoration: none;
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'League Spartan',
+        sans-serif;
     color:#212F3D;
-    font-weight: 900;
+    font-weight: 700;
+    padding-top: 20px;
 }
 
-.extra,h1{
-    color: green;
-    font-family: 'League Spartan', sans-serif;
-    font-weight: 900;
+.extra
+ {
+    color:#212F3D;
+    font-family: 'League Spartan',
+        sans-serif;
+    font-weight: 700;
 }
 
 
 
-.product_card{
-    margin: 23px !important;
+.product_card {
+    margin: 22px !important;
     transition: 0.3s;
     border: 2px solid rgb(217, 215, 215);
     /* box-shadow: 15px rgb(178, 177, 177); */
 }
+
 /* Add to Button Sticky  */
-.card-body{
-position: relative !important;
+.card-body {
+    position: relative !important;
 }
 
 
 
-#count{
+#count {
     font-family: 'Courier New', Courier, monospace;
     color: blue !important;
     font-weight: bolder !important;
     font-size: 15px !important;
+
 }
 
 
 
 
-.btn-primary{
+.btn-primary {
     position: absolute !important;
     /* margin-top: 2px !important; */
-    bottom:3px !important;
+    bottom: 3px !important;
     right: 2px !important;
     margin-bottom: 10px !important;
     font-size: 18px !important;
     font-weight: 600 !important;
     color: #ffffff !important;
-    background-color:#16A085 !important;
+    background-color: #16A085 !important;
     border: 1px solid #16A085 !important;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     /* scale: 1.1; */
-    color:#16A085 !important;
-    background-color:transparent !important;
+    color: #16A085 !important;
+    background-color: transparent !important;
     border: 1px solid #16A085 !important;
 
 }
 
-#products{
-  width:98vw !important;
-  margin:auto !important;
-  display: flex !important;
-  justify-content: center;
-  background-color: #fff !important;
-  
+#products {
+    width: 98vw !important;
+    margin: auto !important;
+    display: flex !important;
+    justify-content: center;
+    background-color: #fff !important;
+
 }
 
-.card-title{
- color: rgb(27, 3, 49) !important;
+.card-title {
+    color: rgb(27, 3, 49) !important;
 }
 
-.card:hover{
-scale:0.9;
-color: rgb(6, 1, 10) !important;
+.card:hover {
+    scale: 0.9;
+    color: rgb(6, 1, 10) !important;
 }
 
 .card-img-top {
     padding-top: 10px !important;
     border-radius: 8px !important;
-   
-    
+
+
 }
 
 
@@ -185,12 +193,12 @@ color: rgb(6, 1, 10) !important;
 
 #hero h2 {
     color: #F8F9F9;
-    
+
 }
 
 #hero h1 {
     color: #16A085;
-    font-family: 'League Spartan',sans-serif;
+    font-family: 'League Spartan', sans-serif;
     font-weight: 500;
 }
 
@@ -234,7 +242,7 @@ color: rgb(6, 1, 10) !important;
     padding-top: 40px;
     padding-bottom: 10px;
     font-family: 'League Spartan', sans-serif;
-    }
+}
 
 
 
@@ -324,6 +332,7 @@ footer .col {
 .craft strong {
     font-size: 40px;
 }
+
 .craft {
     font-size: 35px;
     margin-bottom: 30px;

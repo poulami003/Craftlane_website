@@ -132,7 +132,7 @@ body {
 }
 
 #orderContainer {
-    font-family: 'Lato', sans-serif;
+    font-family: 'League Spartan', sans-serif;
     width: 80%;
     padding-top: 250px;
     padding-bottom: 150px;
@@ -147,7 +147,8 @@ body {
 }
 
 #aboutCheck p {
-    font-weight: 100;
+    font-size: 20px;
+    font-weight: 400;
     letter-spacing: 1px;
 }
 

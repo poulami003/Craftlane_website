@@ -93,6 +93,10 @@ body::-webkit-scrollbar {
 
 } */
 
+ /* a.active::after {
+    color: #088178;
+} */
+
 .extra {
     color: #212F3D;
     font-family: 'League Spartan',
@@ -207,6 +211,17 @@ body::-webkit-scrollbar {
     justify-content: space-between;
 }
 
+
+.form-control {
+    width: 300px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.btn {
+    border-radius: 30px;
+}
+
 /* .container {
     
     margin: 50px auto;
@@ -317,6 +332,8 @@ body::-webkit-scrollbar {
     padding-bottom: 10px;
     font-family: 'League Spartan', sans-serif;
 }
+
+
 
 
 

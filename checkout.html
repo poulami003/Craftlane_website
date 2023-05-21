@@ -86,16 +86,16 @@
 
     <!-- // Sign Up Form  -->
     <section class="checkout-part section-m1">
-        <h2></h2>
+        <h2>CHECKOUT</h2>
         <div class="container">
             <form method="POST" action="checkout.php" name="form" onsubmit="return validateForm()">
                 <div class="textbox">
-                    <input type="text" placeholder="Enter Your  Name" name="ffirst" value=""
+                    <input type="text" placeholder="Enter Your  Name" name="firstname" value=""
                         onkeypress="return /[a-zA-Z]/i.test(event.key)" required>
                 </div>
 
                 <div class="textbox">
-                    <input type="text" placeholder="Enter Your Last Name" name="flast" value=""
+                    <input type="text" placeholder="Enter Your Last Name" name="lastname" value=""
                         onkeypress="return /[a-zA-Z]/i.test(event.key)" required>
                 </div>
 
@@ -122,16 +122,84 @@
 
 
                 <div class="btn submit">
-                    <input name="submit" value="Submit" type="submit">
+                    <input name="submit" value="Submit" type="submit" >
                 </div>
+                
             </form>
         </div>
 
-        <!-- <div class="checkout">
+        <div class="checkout">
             <a href="order.html"><button>Order Confirmed</button></a>
             
-        </div> -->
+        </div>
     </section>
+
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button>Sign Up</button>
+        </div>
+    </section>
+    
+    
+    <footer class="section-p1">
+        <div class="col">
+            <a class="craft" href="index.html"> <strong>CRAFT</strong>LANE</a>
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>Galaxy Mall, Asansol</p>
+            <p><strong>Phone: </strong>(+91) 9339477232</p>
+            <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="col">
+            <h4>About</h4>
+            <a href="About.html">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="Contact.html">Contact us</a>
+        </div>
+    
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="SignPage.html">Sign In</a>
+            <a href="Cart.html">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Trace My Order</a>
+            <a href="#">Help</a>
+        </div>
+    
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From Google Play or App Store</p>
+            <div class="row">
+                <img src="images/pay/play.jpg" alt="error">
+                <img src="images/pay/app.jpg" alt="error">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay/pay.png" alt="error">
+    
+        </div>
+    
+    
+    </footer>
+
     <!-- ---------------- -->
 
 

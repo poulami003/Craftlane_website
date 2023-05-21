@@ -157,20 +157,31 @@ body {
 
 }
 
-/* .checkout-part {
+.checkout-part {
     background-color: #dfc6c6;
-    height: 700px;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
     
-} */
+}
 
-
+.checkout-part h2 {
+    display: block;
+    margin: auto;
+    width: 15%;
+    padding: 15px;
+    padding-top: 40px;
+    font-family: 'League Spartan', sans-serif;
+    color:#212F3D;
+}
 
 
 .container {
     display: block;
     align-items: center;
     border: 2px solid #929496;
-    margin: 100px auto;
+    margin: 10px auto;
     padding: 40px 75px;
     width: 45%;
     border-radius: 28px;
@@ -202,12 +213,12 @@ body {
     font-size: 18px;
     padding: 9px 25px;
     border-radius: 7px;
-    border: none;
+    border: 2px solid black;
     background-color: rgb(12, 12, 12);
     color: aliceblue;
     font-family: 'Ubuntu', sans-serif;
     display: block;
-    width: 504px;
+    width: 500px;
 }
 
 .submit input:hover {
@@ -218,10 +229,10 @@ body {
 
 }
 
-/* .checkout {
+.checkout {
     display: block;
-    width: 30%;
-    margin: 10px auto;
+    width: 14%;
+    margin: 20px auto;
     padding: 10px 0;
 }
 
@@ -243,4 +254,151 @@ body {
     cursor: pointer;
     color: #212F3C;
     background-color: transparent
-} */
+}
+
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("../images/pay/banner.png");
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* background-color: #0d2e83; */
+
+}
+
+#newsletter h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fbffff;
+}
+
+#newsletter p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #CACFD2;
+}
+
+#newsletter p span {
+
+    color: #f1dd2e;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    color: #9ea7af;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 25px;
+    color: #F8F9F9;
+    background-color: #148F77;
+    cursor: pointer;
+    border: 1px solid #148F77;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.2s;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.craft strong {
+    font-size: 40px;
+}
+
+.craft {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #212F3D;
+}
+
+footer h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #212F3D;
+}
+
+footer p {
+    font-size: 23px;
+    margin: 0 0 8px 0;
+    color: #5b5d61;
+}
+
+footer a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #85929E;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow h4 {
+    color: #212F3D;
+}
+
+footer .follow i {
+    color: #212F3D;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    width: 180px;
+    height: 50px;
+    border: 2px solid #088178;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 15px;
+
+
+}
+
+footer .install img {
+    margin: 12px 0 17px 0;
+
+}
+
+footer .follow i:hover,
+footer a:hover {
+
+    color: #138D75;
+}

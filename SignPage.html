@@ -81,39 +81,37 @@
 
     <!-- // Sign Up Form  -->
 
+    <section class="sign">
+
+
+    <h2>SIGN IN</h2>
+
     <div class="container">
         <form method="POST" action="login.php" name="form" onsubmit="return validateForm()">
             <div class="textbox">
-                <input type="text" placeholder="Enter Your  Name" name="ffirst" value=""
+                <input type="text" placeholder="Username" name="username" value=""
                     onkeypress="return /[a-zA-Z]/i.test(event.key)" required>
             </div>
 
             <div class="textbox">
-                <input type="text" placeholder="Enter Your Last Name" name="flast" value=""
-                    onkeypress="return /[a-zA-Z]/i.test(event.key)" required>
-            </div>
-
-            <div class="textbox">
-                <input type="text" placeholder="Enter Your Email" name="email" value="" required
+                <input type="text" placeholder="User Email Id" name="email" value="" required
                     pattern="[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+.[a-z]{2,4}" title="Invalid Email">
             </div>
 
-
             <div class="textbox">
-                <input type="text" placeholder="Enter Your Phone no." name="phone" value=""
+                <input type="number" placeholder="Password" name="password" value="" 
                     onkeypress="return /[0-9]/i.test(event.key)" maxlength="10" pattern="([0-9]){10,}" required>
             </div>
 
-            <div class="textbox">
-                <input type="text" placeholder="Enter Your Address" name="address" value=""
-                    onkeypress="return /[a-zA-Z]/i.test(event.key)" required>
-            </div>
+            
 
             <div class="btn submit">
                 <input name="submit" value="Submit" type="submit">
             </div>
         </form>
     </div>
+
+    </section>
 
     <!-- ---------------- -->
 

@@ -7,7 +7,7 @@ $lastname=$_POST['lastname'];
 $email=$_POST['email'];
 $phone=$_POST['phone'];
 $address=$_POST['address'];
-$phone=$_POST['zip'];
+$zip=$_POST['zip'];
 
 
 

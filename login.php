@@ -3,7 +3,6 @@
 $con=mysqli_connect('localhost:3306','root','','CRAFTLANE');
 
 $username=$_POST['username'];
-
 $email=$_POST['email'];
 $password=$_POST['password'];
 
